@@ -11,11 +11,11 @@
 *
 * ======================================================= */
 body {
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #828282;
+  color: #333;
   background: #fff;
 }
 
@@ -48,24 +48,29 @@ body {
 }
 
 a {
-  color: #cabcab;
+  color:#505050;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #cabcab;
+  color:#505050;
   outline: none;
   text-decoration: none;
 }
 
 p {
-  margin-bottom: 20px;
-}
+  margin-bottom: 30px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
 
+}
+.presentation{
+  font-size: 72px;
+
+}
 h1, h2, h3, h4, h5, h6, figure {
-  color: #505050;
-  font-family: "Montserrat", Arial, sans-serif;
+  color: #333;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -73,10 +78,23 @@ h1{
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", Arial, sans-serif;
+  margin: 40px 0 20px 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color:#505050;
+}
+.invision-link{
+  color:#F32462;
+  font-weight: bold;
 
 }
+.logo-cian{
+  color:#F32462;
+  font-weight: bold;
+  }
+  .logo-black{
+    color:#505050;
+    font-weight: bold;
+    }
 h1.detail { color:#F32462; }
 span.name { color:#505050; }
 
@@ -143,9 +161,16 @@ span.name { color:#505050; }
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
 }
-.fh5co-nav a {
+.fh5co-nav a .logo-cian{
   padding: 5px 0;
-  color: #000;
+  color: #F32462;
+}
+.fh5co-nav a .logo-black{
+  padding: 5px 0;
+  color: #505050;
+}
+.sociales{
+  font-weight: 600;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -399,8 +424,12 @@ span.name { color:#505050; }
 #fh5co-author,
 #fh5co-work,
 #fh5co-about,
-#fh5co-contact,
-#fh5co-footer {
+#fh5co-contact{ 
+  padding: 1em 0;
+  clear: both;
+}
+
+#fh5co-footer { 
   padding: 7em 0;
   clear: both;
 }
@@ -572,17 +601,24 @@ span.name { color:#505050; }
 
 .fh5co-heading {
   margin-bottom: 1em;
+  padding:2em;
+}
+.fh5co-header {
+  margin-bottom: 1em;
+  padding:0;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 32px;
+  font-size: 24px;
   margin-bottom: 20px;
-  line-height: 38px;
-  font-weight: normal;
-  letter-spacing: 1px;
-  color: #505050;
+  line-height: 1.7;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #333;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+
 }
 
 .fh5co-heading h3 {
@@ -593,18 +629,31 @@ span.name { color:#505050; }
   font-weight: 550;
   text-transform: uppercase;
   color: #FF2F7A;
+  letter-spacing: 0.07em;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+
+
 }
 h4 {
-  color: #505050;
+  color: #333;
   font-weight: bold;
 }
+h5{
+  font-size: 14px;
+  color: #AFAFAF;
+  margin-bottom: 40px;
+
+}
 .division{
-background: #f2f2f2;  
+background: #f2f2f2; 
 }
 .fh5co-heading p {
   font-size: 16px;
-  line-height: 24px;
-  color: #828282;
+  line-height: 1.7;
+  font-weight: 100;
+  color: #333;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+
 }
 .fh5co-heading span {
   display: block;
@@ -622,12 +671,53 @@ background: #f2f2f2;
   .title {
     text-align: center;
   }
+  h1{
+  }
+}
+.headerproject .desc {
+padding: 50px;
+}
+.textheader{
+  color: #ffff;
+  font-weight: normal;
 }
 
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.centered h1{
+  color: #ffff;
+  font-size: 40px;
+}
+.centered p{
+  color: #ffff;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  img { 
+    width: auto;
+    height: auto;
+    
+  }
+}
+  .containerheader {
+  position: relative;
+}
 .author {
   width: 100%;
   float: left;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 .author .author-inner {
   background-size: cover;
@@ -704,8 +794,8 @@ background: #f2f2f2;
 }
 #fh5co-started .btn {
   margin-top: 20px;
-  border: 3px solid #8c7961;
-  color: #8c7961;
+  border: 3px solid #FF2F7A;
+  color: #FF2F7A;
   font-size: 20px;
   font-weight: 400;
   padding: 20px 0;
@@ -1098,8 +1188,8 @@ background: #f2f2f2;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #cabcab;
-  border: 2px solid #cabcab;
+  color: #F32462;
+  border: 2px solid #F32462;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #cabcab;
