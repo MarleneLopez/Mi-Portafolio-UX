@@ -370,6 +370,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-responsive-hobbies {
+  display: block;
+  max-width: 95%;
+  height: auto;
+}
 
 .img-rounded {
   border-radius: 6px;

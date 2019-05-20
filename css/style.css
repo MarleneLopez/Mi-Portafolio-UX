@@ -58,7 +58,11 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
+.destacado{
+  color:#F32462;
+  font-weight: normal;
 
+}
 p {
   margin-bottom: 30px;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -92,12 +96,32 @@ h1{
   font-weight: bold;
   }
   .logo-black{
-    color:#505050;
-    font-weight: bold;
+    color: rgba(255, 255, 255, 0.94);
+        font-weight: bold;
     }
 h1.detail { color:#F32462; }
 span.name { color:#505050; }
 
+.title-footer{
+  font-size: 38px;
+  color:#F32462;
+  font-weight: bold;
+
+}
+
+.text-footer{
+  font-size: 18px;
+ line-height: 26  px;
+ font-weight: 300;
+ color: rgba(255, 255, 255, 0.8);
+}
+.profesion{
+  color:#F32462; 
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.07em;
+
+}
 ::-webkit-selection {
   color: #fff;
   background: #cabcab;
@@ -120,7 +144,7 @@ span.name { color:#505050; }
   right: 0;
   padding: 25px 0;
   z-index: 1;
-  background: #edebe8;
+  background: #1A131A;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -171,10 +195,17 @@ span.name { color:#505050; }
 }
 .sociales{
   font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+}
+.socialescolor{
+  font-weight: 600;
+  color: #F32462;
+
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
     display: none;
+    float: right;
   }
 }
 .fh5co-nav .menu-2 li.search {
@@ -234,13 +265,13 @@ span.name { color:#505050; }
   letter-spacing: 2px;
   font-size: 12px;
   padding: 30px 10px;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: black;
+  color: #Fff;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -276,7 +307,7 @@ span.name { color:#505050; }
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #000;
+  border-bottom-color: #F32462;
   border-width: 8px;
   margin-left: -8px;
 }
@@ -300,10 +331,10 @@ span.name { color:#505050; }
   color: #fff;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #000;
+  color: #F32462;
 }
 .fh5co-nav ul li.active > a {
-  color: #cabcab !important;
+  color: #F32462 !important;
 }
 .fh5co-nav ul li .form-group {
   border: 1px solid red;
@@ -384,7 +415,7 @@ span.name { color:#505050; }
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #cabcab;
+  color: #F32462;
   position: absolute;
   left: 0;
   top: .05em;
@@ -430,8 +461,9 @@ span.name { color:#505050; }
 }
 
 #fh5co-footer { 
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
+  margin-top: 100px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-started,
@@ -555,7 +587,7 @@ span.name { color:#505050; }
 }
 
 .top-line {
-  padding-bottom: 7em;
+  padding-bottom: 4em;
 }
 .top-line .fh5co-heading {
   margin-bottom: 0 !important;
@@ -602,6 +634,12 @@ span.name { color:#505050; }
 .fh5co-heading {
   margin-bottom: 1em;
   padding:2em;
+}
+.fh5co-heading-entrevista{
+  padding:1em;
+}
+.fh5co-heading-iconos{
+  padding-top:0em;
 }
 .fh5co-header {
   margin-bottom: 1em;
@@ -809,7 +847,7 @@ img {
 }
 
 #fh5co-footer {
-  background: #efefef;
+  background: #1A131A;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -850,7 +888,7 @@ img {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: #1A131A;
   top: 0;
   right: 0;
   top: 0;
@@ -1085,10 +1123,10 @@ img {
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
-  background: #000;
+  background: #fff;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #000;
+  background: #fff;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1178,9 +1216,18 @@ img {
 }
 
 .btn-primary {
-  background: #cabcab;
+  background: #F32462;
   color: #fff;
-  border: 2px solid #cabcab;
+  border: 2px solid #F32462;
+  margin: 30px;
+}
+
+.btn-primary-about {
+  background: #F32462;
+  color: #fff;
+  border: 2px solid #F32462;
+  margin: 0px;
+  margin-top: 10px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #d4c8bb !important;
