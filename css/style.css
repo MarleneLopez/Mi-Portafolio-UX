@@ -144,7 +144,7 @@ span.name { color:#505050; }
   right: 0;
   padding: 25px 0;
   z-index: 1;
-  background: #1A131A;
+  background: #251A25;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -847,7 +847,7 @@ img {
 }
 
 #fh5co-footer {
-  background: #1A131A;
+  background: #251A25;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
