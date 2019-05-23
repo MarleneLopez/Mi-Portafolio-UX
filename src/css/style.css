@@ -686,7 +686,7 @@ h5{
 background: #f2f2f2; 
 }
 .fh5co-heading p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7;
   font-weight: 100;
   color: #333;
@@ -726,6 +726,7 @@ padding: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
+  right: -40%;
   transform: translate(-50%, -50%);
   font-size: 18px;
 }
@@ -735,7 +736,10 @@ padding: 50px;
 }
 .centered p{
   color: #ffff;
-  font-size: 18px;
+  font-size: 20px;
+}
+.centered h2{
+  color: #fff;
 }
 
 img { 
