@@ -64,7 +64,8 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: normal;
+  color: #FF2F7A;
 }
 
 dfn {

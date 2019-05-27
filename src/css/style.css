@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 h1{
-  font-size: 72px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: 500;
   letter-spacing: 0.1em;
   margin: 40px 0 20px 0;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -88,7 +88,7 @@ h1{
 }
 .invision-link{
   color:#F32462;
-  font-weight: bold;
+  font-weight: 500;
 
 }
 .logo-cian{
@@ -649,10 +649,10 @@ span.name { color:#505050; }
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 20px;
   line-height: 1.7;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: 0px;
   color: #333;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -667,14 +667,14 @@ span.name { color:#505050; }
   font-weight: 550;
   text-transform: uppercase;
   color: #FF2F7A;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.1em;
   font-family: "Source Sans Pro", Arial, sans-serif;
 
 
 }
 h4 {
-  color: #333;
-  font-weight: bold;
+  color: #FF2F7A;
+  font-weight: normal;
 }
 h5{
   font-size: 14px;
