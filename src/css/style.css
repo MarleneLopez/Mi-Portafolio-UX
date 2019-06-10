@@ -635,6 +635,10 @@ span.name { color:#505050; }
   margin-bottom: 1em;
   padding:2em;
 }
+.fh5co-heading {
+  padding-bottom:0em; 
+}
+
 .fh5co-heading-entrevista{
   padding:1em;
 }
